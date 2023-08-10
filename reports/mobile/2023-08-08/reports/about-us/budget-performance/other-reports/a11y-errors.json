@@ -1,0 +1,113 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-351-UL",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,3,UL",
+            "selector": "section.usa-section > div.grid-container > div.grid-col-12 > ul",
+            "boundingRect": {
+              "top": 896,
+              "bottom": 1843,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 947
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "2021 Civil Service Retirement and Disability Fund Annual Report(PDF file)\nBOA S…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-352-UL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,3,UL,1,UL",
+                  "selector": "div.grid-container > div.grid-col-12 > ul > ul",
+                  "boundingRect": {
+                    "top": 955,
+                    "bottom": 1015,
+                    "left": 72,
+                    "right": 380,
+                    "width": 308,
+                    "height": 59
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "BOA Statement FY 2021 CSRDF Annual Report(PDF file)"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-353-UL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,3,UL,3,UL",
+                  "selector": "div.grid-container > div.grid-col-12 > ul > ul",
+                  "boundingRect": {
+                    "top": 1074,
+                    "bottom": 1133,
+                    "left": 72,
+                    "right": 380,
+                    "width": 308,
+                    "height": 59
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "BOA Statement FY 2020 CSRDF Annual Report(PDF file)"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-354-UL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,3,UL,5,UL",
+                  "selector": "div.grid-container > div.grid-col-12 > ul > ul",
+                  "boundingRect": {
+                    "top": 1192,
+                    "bottom": 1251,
+                    "left": 72,
+                    "right": 380,
+                    "width": 308,
+                    "height": 59
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "BOA Statement FY 2019 CSRDF Annual Report(PDF file)"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

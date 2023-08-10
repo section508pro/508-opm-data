@@ -1,0 +1,235 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-354-A",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,60,P,2,A",
+            "selector": "section#Acquisitions > div.ContentBody > p > a",
+            "boundingRect": {
+              "top": 37177,
+              "bottom": 37197,
+              "left": 373,
+              "right": 373,
+              "width": 0,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:William.Patterson@opm.gov\">",
+            "nodeLabel": "section#Acquisitions > div.ContentBody > p > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-502-OL",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,32,OL",
+            "selector": "div.grid-container > section#Acquisitions > div.ContentBody > ol.UpperAlpha",
+            "boundingRect": {
+              "top": 14078,
+              "bottom": 16560,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 2483
+            },
+            "snippet": "<ol class=\"UpperAlpha\">",
+            "nodeLabel": "Divide proposed acquisitions of supplies and services (except construction) int…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-503-OL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,32,OL,4,OL",
+                  "selector": "section#Acquisitions > div.ContentBody > ol.UpperAlpha > ol",
+                  "boundingRect": {
+                    "top": 14564,
+                    "bottom": 16560,
+                    "left": 72,
+                    "right": 380,
+                    "width": 308,
+                    "height": 1996
+                  },
+                  "snippet": "<ol>",
+                  "nodeLabel": "Provide a copy of the proposed acquisition package to the SBA procurement cente…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-503-OL",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,32,OL,4,OL",
+            "selector": "section#Acquisitions > div.ContentBody > ol.UpperAlpha > ol",
+            "boundingRect": {
+              "top": 14564,
+              "bottom": 16560,
+              "left": 72,
+              "right": 380,
+              "width": 308,
+              "height": 1996
+            },
+            "snippet": "<ol>",
+            "nodeLabel": "Provide a copy of the proposed acquisition package to the SBA procurement cente…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-504-OL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,32,OL,4,OL,1,OL",
+                  "selector": "div.ContentBody > ol.UpperAlpha > ol > ol",
+                  "boundingRect": {
+                    "top": 14743,
+                    "bottom": 15665,
+                    "left": 112,
+                    "right": 380,
+                    "width": 268,
+                    "height": 921
+                  },
+                  "snippet": "<ol type=\"a\">",
+                  "nodeLabel": "The proposed acquisition is for supplies or services currently being provided b…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-505-OL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,32,OL,4,OL,3,OL",
+                  "selector": "div.ContentBody > ol.UpperAlpha > ol > ol",
+                  "boundingRect": {
+                    "top": 15741,
+                    "bottom": 16279,
+                    "left": 112,
+                    "right": 380,
+                    "width": 268,
+                    "height": 537
+                  },
+                  "snippet": "<ol type=\"a\">",
+                  "nodeLabel": "Proposed acquisition cannot be divided into reasonably small lots (not less tha…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-506-OL",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,46,OL,0,LI,4,OL",
+            "selector": "div.ContentBody > ol.UpperAlpha > li > ol",
+            "boundingRect": {
+              "top": 20337,
+              "bottom": 21002,
+              "left": 72,
+              "right": 380,
+              "width": 308,
+              "height": 665
+            },
+            "snippet": "<ol>",
+            "nodeLabel": "Consolidating two or more requirements for supplies or services, previously pro…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-507-OL",
+                  "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,46,OL,0,LI,4,OL,1,OL",
+                  "selector": "ol.UpperAlpha > li > ol > ol",
+                  "boundingRect": {
+                    "top": 20516,
+                    "bottom": 20772,
+                    "left": 112,
+                    "right": 380,
+                    "width": 268,
+                    "height": 256
+                  },
+                  "snippet": "<ol type=\"a\">",
+                  "nodeLabel": "The diversity, size, or specialized nature of the elements of the performance s…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]

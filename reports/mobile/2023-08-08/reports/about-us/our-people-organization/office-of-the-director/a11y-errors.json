@@ -1,0 +1,128 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-325-P",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,1,DIV,0,UL,0,LI,1,P",
+            "selector": "div.Bios > ul > li > p.Position",
+            "boundingRect": {
+              "top": 677,
+              "bottom": 711,
+              "left": 72,
+              "right": 389,
+              "width": 317,
+              "height": 34
+            },
+            "snippet": "<p class=\"Position\">",
+            "nodeLabel": "Director",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.49 (foreground color: #898989, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-326-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body#htmBody",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 1552,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 1552
+                  },
+                  "snippet": "<body id=\"htmBody\">",
+                  "nodeLabel": "body#htmBody"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-327-H3",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,1,DIV,0,UL,0,LI,0,H3",
+            "selector": "div.Bios > ul > li > h3",
+            "boundingRect": {
+              "top": 646,
+              "bottom": 670,
+              "left": 72,
+              "right": 380,
+              "width": 308,
+              "height": 24
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Kiran Ahuja",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

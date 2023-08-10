@@ -1,0 +1,204 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-357-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,2,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 725,
+              "bottom": 805,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What are my rights if OPM denies my FTCA claim?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-358-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,3,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 813,
+              "bottom": 893,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can I sue OPM for damages under the Federal Tort Claims Act?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-359-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,4,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 901,
+              "bottom": 1005,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 104
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "As an insurance company, can I submit FTCA claims on behalf of my insured custo…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-360-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,5,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1013,
+              "bottom": 1141,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 128
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "The Standard Form 95 doesn't seem to have a place to list claims for economic l…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-361-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,6,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1149,
+              "bottom": 1253,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 104
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "How much time do I have to file a claim under the Federal Tort Claims Act (FTCA…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-362-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,1,DIV,7,DIV",
+            "selector": "section.usa-section > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1261,
+              "bottom": 1365,
+              "left": 32,
+              "right": 380,
+              "width": 348,
+              "height": 104
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Who is eligible to file a claim with OPM under the Federal Tort Claims Act for …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-350-BUTTON",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,4,SECTION,1,DIV,10,DIV,0,DIV,0,SECTION,0,DIV,0,SECTION,0,FORM,2,BUTTON",
+            "selector": "div > section > form.usa-search > button.usa-button",
+            "boundingRect": {
+              "top": 571,
+              "bottom": 615,
+              "left": 338,
+              "right": 380,
+              "width": 42,
+              "height": 44
+            },
+            "snippet": "<button class=\"usa-button\" type=\"submit\" data-bind=\"click: SearchFaqs\">",
+            "nodeLabel": "div > section > form.usa-search > button.usa-button",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
