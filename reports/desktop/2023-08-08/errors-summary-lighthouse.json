@@ -1,1 +1,10 @@
-{}
+{
+  "aria-allowed-attr": 528,
+  "aria-valid-attr-value": 176,
+  "link-name": 9,
+  "heading-order": 5,
+  "list": 4,
+  "color-contrast": 2,
+  "frame-title": 2,
+  "html-has-lang": 1
+}

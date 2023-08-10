@@ -1,1 +1,10 @@
-{}
+{
+  "color-contrast": 89,
+  "link-name": 28,
+  "heading-order": 11,
+  "aria-allowed-attr": 6,
+  "list": 5,
+  "frame-title": 2,
+  "html-has-lang": 1,
+  "button-name": 1
+}
