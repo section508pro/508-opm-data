@@ -1,0 +1,295 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-335-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,0,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 253,
+              "right": 265,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-336-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,1,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 359,
+              "right": 371,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-337-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,2,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 494,
+              "right": 506,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-338-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,3,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 640,
+              "right": 652,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-339-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,4,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 780,
+              "right": 792,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-340-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 967,
+              "right": 979,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-90-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 830,
+              "right": 963,
+              "width": 133,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"agency services-control-id\" href=\"/services-for-agencies/\">",
+            "nodeLabel": "Agency Services",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"agency services-control-id\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-105-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 1017,
+              "right": 1156,
+              "width": 139,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"operating status-control-id\" href=\"/policy-data-oversight/snow-dismissal-procedures/current-status/\">",
+            "nodeLabel": "Operating Status",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"operating status-control-id\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-268-A",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,3,DIV,0,A",
+            "selector": "div.grid-col-12 > div.section > div.report_cover > a",
+            "boundingRect": {
+              "top": 1407,
+              "bottom": 1426,
+              "left": 419,
+              "right": 683,
+              "width": 264,
+              "height": 19
+            },
+            "snippet": "<a href=\"/about-us/our-director/americas-workforce/redi-roadmap.pdf\">",
+            "nodeLabel": "div.grid-col-12 > div.section > div.report_cover > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-270-A",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,2,SECTION,0,DIV,1,DIV,1,DIV,4,DIV,0,A",
+            "selector": "div.grid-col-12 > div.section > div.infographic_cover > a",
+            "boundingRect": {
+              "top": 1407,
+              "bottom": 1426,
+              "left": 783,
+              "right": 1047,
+              "width": 264,
+              "height": 19
+            },
+            "snippet": "<a href=\"#\">",
+            "nodeLabel": "div.grid-col-12 > div.section > div.infographic_cover > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
