@@ -1,0 +1,130 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-248-A",
+            "path": "1,HTML,1,BODY,0,FORM,17,DIV,1,DIV,1,A",
+            "selector": "form#aspnetForm > div#container_opmlabs > div#opmlabs_feedback > a",
+            "boundingRect": {
+              "top": 929,
+              "bottom": 940,
+              "left": 1289,
+              "right": 1335,
+              "width": 46,
+              "height": 11
+            },
+            "snippet": "<a href=\"mailto:webmaster@opm.gov\">",
+            "nodeLabel": "Email Us!",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.78 (foreground color: #ffffff, background color: #c2c2c2, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-428-DIV",
+                  "path": "1,HTML,1,BODY,0,FORM,17,DIV",
+                  "selector": "body#ctl01_ctl00_htmBody > form#aspnetForm > div#container_opmlabs",
+                  "boundingRect": {
+                    "top": 928,
+                    "bottom": 946,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 18
+                  },
+                  "snippet": "<div id=\"container_opmlabs\">",
+                  "nodeLabel": "Feedback: Email Us!"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-429-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1796,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 1796
+            },
+            "snippet": "<html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\">",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
