@@ -1,0 +1,466 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-515-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,0,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 253,
+              "right": 265,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-516-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,1,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 359,
+              "right": 371,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-517-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,2,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 494,
+              "right": 506,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-518-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,3,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 640,
+              "right": 652,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-519-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,4,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 780,
+              "right": 792,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-520-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 967,
+              "right": 979,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-521-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,2,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 603,
+              "bottom": 659,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "How can I find out more about open government?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-522-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,3,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 675,
+              "bottom": 755,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Where can I find and download the high value OPM information that the Open Gove…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-523-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,4,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 771,
+              "bottom": 827,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What are OPM's open government flagship initiatives?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-524-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,5,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 843,
+              "bottom": 899,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What is transparency in the context of open government?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-525-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,6,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 915,
+              "bottom": 971,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Why are OPM's open government flagship initiatives important to me?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-526-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,7,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 987,
+              "bottom": 1043,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What is an open government and what does it mean to OPM?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-527-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,8,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1059,
+              "bottom": 1139,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What is participation in the context of open government? How can I participate …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-528-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,9,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1155,
+              "bottom": 1235,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What is collaboration in the context of open government, and how does OPM colla…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-529-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,10,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1251,
+              "bottom": 1355,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 104
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "This question pertains to openness and the Freedom of Information Act. Generall…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-530-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,11,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1371,
+              "bottom": 1427,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "How do you load the OPM Alert Mobile App?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 830,
+              "right": 963,
+              "width": 133,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"agency services-control-id\" href=\"/services-for-agencies/\">",
+            "nodeLabel": "Agency Services",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"agency services-control-id\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 1017,
+              "right": 1156,
+              "width": 139,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"operating status-control-id\" href=\"/policy-data-oversight/snow-dismissal-procedures/current-status/\">",
+            "nodeLabel": "Operating Status",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"operating status-control-id\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-A",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,NAV,1,UL,9,LI,0,A",
+            "selector": "nav#SideNav > ul#SecondaryNavigation > li.usa-sidenav__item > a",
+            "boundingRect": {
+              "top": 679,
+              "bottom": 695,
+              "left": 195,
+              "right": 371,
+              "width": 176,
+              "height": 16
+            },
+            "snippet": "<a href=\"/frequently-asked-questions/federal-academic-alliance-faqs/\" class=\"\">",
+            "nodeLabel": "nav#SideNav > ul#SecondaryNavigation > li.usa-sidenav__item > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

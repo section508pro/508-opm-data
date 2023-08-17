@@ -1,0 +1,276 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-253-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,0,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 253,
+              "right": 265,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-254-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,1,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 359,
+              "right": 371,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-255-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,2,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 494,
+              "right": 506,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-256-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,3,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 640,
+              "right": 652,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-257-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,4,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 780,
+              "right": 792,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-258-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 967,
+              "right": 979,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 830,
+              "right": 963,
+              "width": 133,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"agency services-control-id\" href=\"/services-for-agencies/\">",
+            "nodeLabel": "Agency Services",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"agency services-control-id\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 1017,
+              "right": 1156,
+              "width": 139,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"operating status-control-id\" href=\"/policy-data-oversight/snow-dismissal-procedures/current-status/\">",
+            "nodeLabel": "Operating Status",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"operating status-control-id\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-INPUT",
+            "path": "1,HTML,1,BODY,10,MAIN,0,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,INPUT",
+            "selector": "div#BodyContainer_content_center > div#BodyContainer_content > div#SearchControlTop > input#SearchTermTop",
+            "boundingRect": {
+              "top": 291,
+              "bottom": 327,
+              "left": 195,
+              "right": 495,
+              "width": 300,
+              "height": 35
+            },
+            "snippet": "<input type=\"text\" name=\"SearchTermTop\" id=\"SearchTermTop\" class=\"SearchText\" data-validate=\"true\" data-rule-required=\"true\" data-msg-required=\"Search query is required\">",
+            "nodeLabel": "div#BodyContainer_content_center > div#BodyContainer_content > div#SearchControlTop > input#SearchTermTop",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

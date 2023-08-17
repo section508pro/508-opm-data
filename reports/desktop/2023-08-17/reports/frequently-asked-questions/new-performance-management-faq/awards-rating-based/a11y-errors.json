@@ -1,0 +1,517 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-495-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,0,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 253,
+              "right": 265,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-496-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,1,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 359,
+              "right": 371,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-497-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,2,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 494,
+              "right": 506,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-498-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,3,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 640,
+              "right": 652,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-499-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,4,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 780,
+              "right": 792,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-500-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 967,
+              "right": 979,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-501-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,2,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 764,
+              "bottom": 844,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are rating-based performance awards subject to the $10,000 and $25,000 approval…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-502-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,3,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 860,
+              "bottom": 916,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are there amount restrictions for granting rating-based awards?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-503-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,4,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 932,
+              "bottom": 1012,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can an employee receive both a rating-based award and an award for a specific c…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-504-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,5,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1028,
+              "bottom": 1108,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Must all employees rated outstanding receive an award before those rated at low…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-505-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,6,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1124,
+              "bottom": 1204,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can agencies establish award programs linking award amounts to specific ratings?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-506-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,7,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1220,
+              "bottom": 1276,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What is a performance-based cash award?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-507-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,8,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1292,
+              "bottom": 1348,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can non-General Schedule employees receive rating-based awards?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-508-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,9,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1364,
+              "bottom": 1444,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can agencies calculate rating-based awards as dollar amounts instead of percent…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-509-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,10,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1460,
+              "bottom": 1540,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are agencies required to have review boards or awards committees to oversee the…",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-510-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,11,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1556,
+              "bottom": 1612,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are agencies required to keep award recipient information private?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 830,
+              "right": 963,
+              "width": 133,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"agency services-control-id\" href=\"/services-for-agencies/\">",
+            "nodeLabel": "Agency Services",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"agency services-control-id\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 1017,
+              "right": 1156,
+              "width": 139,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"operating status-control-id\" href=\"/policy-data-oversight/snow-dismissal-procedures/current-status/\">",
+            "nodeLabel": "Operating Status",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"operating status-control-id\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-511-H3",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,1,SECTION,0,H3",
+            "selector": "div.grid-container > div > section > h3",
+            "boundingRect": {
+              "top": 548,
+              "bottom": 584,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 36
+            },
+            "snippet": "<h3 data-bind=\"visible: searchableTags().length >",
+            "nodeLabel": "Categories",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-247-A",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,NAV,1,UL,9,LI,0,A",
+            "selector": "nav#SideNav > ul#SecondaryNavigation > li.usa-sidenav__item > a",
+            "boundingRect": {
+              "top": 679,
+              "bottom": 695,
+              "left": 195,
+              "right": 371,
+              "width": 176,
+              "height": 16
+            },
+            "snippet": "<a href=\"/frequently-asked-questions/federal-academic-alliance-faqs/\" class=\"\">",
+            "nodeLabel": "nav#SideNav > ul#SecondaryNavigation > li.usa-sidenav__item > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

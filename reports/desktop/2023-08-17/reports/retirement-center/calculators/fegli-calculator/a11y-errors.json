@@ -1,0 +1,224 @@
+[
+  {
+    "id": "tabindex",
+    "title": "Some elements have a `[tabindex]` value greater than 0",
+    "description": "A value greater than 0 implies an explicit navigation ordering. Although technically valid, this often creates frustrating experiences for users who rely on assistive technologies. [Learn more](https://web.dev/tabindex/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-445-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,0,DIV,1,INPUT",
+            "selector": "div > fieldset > div > input#fname",
+            "boundingRect": {
+              "top": 665,
+              "bottom": 686,
+              "left": 497,
+              "right": 674,
+              "width": 177,
+              "height": 21
+            },
+            "snippet": "<input class=\"usa-input\" id=\"fname\" name=\"Fullname\" type=\"text\" tabindex=\"1\">",
+            "nodeLabel": "div > fieldset > div > input#fname",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-446-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,1,DIV,1,INPUT",
+            "selector": "div > fieldset > div > input#asalary",
+            "boundingRect": {
+              "top": 686,
+              "bottom": 707,
+              "left": 583,
+              "right": 760,
+              "width": 177,
+              "height": 21
+            },
+            "snippet": "<input class=\"usa-input\" id=\"asalary\" name=\"AnnualSalary\" type=\"text\" tabindex=\"2\">",
+            "nodeLabel": "div > fieldset > div > input#asalary",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-447-SELECT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,2,DIV,1,SELECT",
+            "selector": "div > fieldset > div > select#death",
+            "boundingRect": {
+              "top": 707,
+              "bottom": 726,
+              "left": 522,
+              "right": 627,
+              "width": 105,
+              "height": 19
+            },
+            "snippet": "<select class=\"usa-select\" id=\"death\" name=\"AgeAtDeath\" tabindex=\"3\">",
+            "nodeLabel": "Under 35\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45 through 49\n50 through 54\n55 through 5…",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-448-SELECT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,3,DIV,1,SELECT",
+            "selector": "div > fieldset > div > select#frequency",
+            "boundingRect": {
+              "top": 726,
+              "bottom": 745,
+              "left": 530,
+              "right": 612,
+              "width": 82,
+              "height": 19
+            },
+            "snippet": "<select class=\"usa-select\" id=\"frequency\" name=\"PaymentFrequency\" tabindex=\"4\">",
+            "nodeLabel": "Bi-Weekly\nMonthly",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-449-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,4,DIV,1,DIV,0,DIV,1,INPUT",
+            "selector": "div > div.FormGroup > div > input#a",
+            "boundingRect": {
+              "top": 759,
+              "bottom": 772,
+              "left": 538,
+              "right": 551,
+              "width": 13,
+              "height": 13
+            },
+            "snippet": "<input id=\"a\" value=\"ON\" name=\"OptionA\" type=\"checkbox\" tabindex=\"5\">",
+            "nodeLabel": "div > div.FormGroup > div > input#a",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-450-SELECT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,4,DIV,1,DIV,1,DIV,1,SELECT",
+            "selector": "div > div.FormGroup > div > select#b",
+            "boundingRect": {
+              "top": 775,
+              "bottom": 794,
+              "left": 538,
+              "right": 568,
+              "width": 30,
+              "height": 19
+            },
+            "snippet": "<select class=\"usa-select\" id=\"b\" name=\"OptionB\" tabindex=\"6\">",
+            "nodeLabel": "0\n1\n2\n3\n4\n5",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-451-SELECT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,4,DIV,1,DIV,2,DIV,1,SELECT",
+            "selector": "div > div.FormGroup > div > select#c",
+            "boundingRect": {
+              "top": 794,
+              "bottom": 813,
+              "left": 524,
+              "right": 554,
+              "width": 30,
+              "height": 19
+            },
+            "snippet": "<select class=\"usa-select\" id=\"c\" name=\"OptionC\" tabindex=\"6\">",
+            "nodeLabel": "0\n1\n2\n3\n4\n5",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-452-SELECT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,5,DIV,1,SELECT",
+            "selector": "div > fieldset > div > select#postal",
+            "boundingRect": {
+              "top": 813,
+              "bottom": 832,
+              "left": 595,
+              "right": 639,
+              "width": 44,
+              "height": 19
+            },
+            "snippet": "<select class=\"usa-select\" id=\"postal\" size=\"1\" name=\"PostalEmployee\" tabindex=\"7\">",
+            "nodeLabel": "No\nYes",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-453-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,6,DIV,0,P,0,INPUT",
+            "selector": "fieldset > div.FormContainer > p > input.usa-button",
+            "boundingRect": {
+              "top": 832,
+              "bottom": 859,
+              "left": 627,
+              "right": 729,
+              "width": 103,
+              "height": 27
+            },
+            "snippet": "<input class=\"usa-button\" onclick=\"CalcNextPage($('#checkSheetLink').attr('href'));\" value=\"Calculate\" type=\"button\" tabindex=\"8\">",
+            "nodeLabel": "fieldset > div.FormContainer > p > input.usa-button",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-454-INPUT",
+            "path": "1,HTML,1,BODY,4,DIV,0,DIV,3,DIV,2,FORM,0,DIV,3,DIV,6,DIV,0,FIELDSET,6,DIV,0,P,1,LABEL,0,INPUT",
+            "selector": "div.FormContainer > p > label > input",
+            "boundingRect": {
+              "top": 837,
+              "bottom": 866,
+              "left": 513,
+              "right": 601,
+              "width": 87,
+              "height": 29
+            },
+            "snippet": "<input value=\"Cancel\" name=\"B2\" type=\"reset\" tabindex=\"9\">",
+            "nodeLabel": "div.FormContainer > p > label > input",
+            "explanation": "Fix any of the following:\n  Element has a tabindex greater than 0"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.keyboard",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]

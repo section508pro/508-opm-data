@@ -1,0 +1,181 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-220-H1",
+            "path": "1,HTML,1,BODY,2,DIV,0,DIV,2,DIV,4,SECTION,0,H1",
+            "selector": "div#MainContent_Container > div#MainContentDiv > section#Overview > h1",
+            "boundingRect": {
+              "top": 329,
+              "bottom": 380,
+              "left": 435,
+              "right": 1165,
+              "width": 730,
+              "height": 51
+            },
+            "snippet": "<h1>",
+            "nodeLabel": "Overview",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #989898, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-221-DIV",
+                  "path": "1,HTML,1,BODY,2,DIV,0,DIV",
+                  "selector": "body#htmBody > div#MainContent_Gutter > div#MainContent_Container",
+                  "boundingRect": {
+                    "top": 123,
+                    "bottom": 880,
+                    "left": 185,
+                    "right": 1165,
+                    "width": 980,
+                    "height": 757
+                  },
+                  "snippet": "<div id=\"MainContent_Container\" style=\"position: relative;\">",
+                  "nodeLabel": "OPM.gov MainRetirementCalculatorsFederal Ball Park Estimator\nSkip Navigation\nIN…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-H3",
+            "path": "1,HTML,1,BODY,5,FOOTER,0,DIV,0,DIV,0,H3",
+            "selector": "footer > div#SitemapNavigation > div.opm > h3",
+            "boundingRect": {
+              "top": 925,
+              "bottom": 945,
+              "left": 366,
+              "right": 665,
+              "width": 299,
+              "height": 21
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "U.S. OFFICE OF PERSONNEL MANAGEMENT",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1705,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 1705
+            },
+            "snippet": "<html xmlns=\"https://www.w3.org/1999/xhtml\" xmlns:og=\"https://opengraphprotocol.org/schema/\" xmlns:fb=\"https://www.facebook.com/2008/fbml\">",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-188-H3",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,0,DIV,6,DIV,1,DIV,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,4,DIV,0,A,0,DIV,0,H3",
+            "selector": "div.slide > a.usa-card__container > div.life_events_card_text > h3.usa-card__heading",
+            "boundingRect": {
+              "top": 1022,
+              "bottom": 1076,
+              "left": 1422,
+              "right": 1656,
+              "width": 234,
+              "height": 54
+            },
+            "snippet": "<h3 class=\"usa-card__heading usagov-card__heading carouselHeaders\">",
+            "nodeLabel": "Facing financial hardship",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.23 (foreground color: #00bde3, background color: #ffffff, font size: 16.1pt (21.44px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "13-189-H3",
+            "path": "1,HTML,1,BODY,6,MAIN,0,DIV,0,DIV,6,DIV,1,DIV,1,SECTION,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,UL,0,LI,5,DIV,0,A,0,DIV,0,H3",
+            "selector": "div.slide > a.usa-card__container > div.life_events_card_text > h3.usa-card__heading",
+            "boundingRect": {
+              "top": 1022,
+              "bottom": 1076,
+              "left": 1711,
+              "right": 1945,
+              "width": 234,
+              "height": 54
+            },
+            "snippet": "<h3 class=\"usa-card__heading usagov-card__heading carouselHeaders\">",
+            "nodeLabel": "Dealing with the death of a loved one",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.23 (foreground color: #00bde3, background color: #ffffff, font size: 16.1pt (21.44px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

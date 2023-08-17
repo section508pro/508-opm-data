@@ -1,0 +1,1602 @@
+[
+  {
+    "path": "/",
+    "score": 0.86,
+    "performance": 0.85,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/a-z-index/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.84,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/about-us/budget-performance/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/careers-at-opm/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/contact-us/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/doing-business-with-opm/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/get-help/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/news/",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/open-government/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/about-us/our-director/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/Blogs/Retire/",
+    "score": 0.72,
+    "performance": 0.54,
+    "accessibility": 0.95,
+    "best-practices": 0.75,
+    "seo": 0.64
+  },
+  {
+    "path": "/FAQs/",
+    "score": 0.87,
+    "performance": 0.98,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/federal-employees-annuitants/",
+    "score": 0.88,
+    "performance": 0.86,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/feedback/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/forms/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/administrative-careers-with-america-acwa/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/assessment-methods/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/job-analysis/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/legal-aspects-of-assessment/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/occupational-questionnaires/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/assessment-policy-faq/structured-interviews/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/classification-faq/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/classification-faq/general/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/campaign-eventsmaterials/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/cfc-donations/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/charity-eligibility-participation/",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/federations/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/finance/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/general/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/loaned-executives/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/combined-federal-campaign-faq/local-charity-eligibility/",
+    "score": 0.83,
+    "performance": 0.84,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/determination-of-covid-19-as-a-quarantinable-communicable-disease/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/employee-relations/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/evacuation-payments-during-a-pandemic-health-crisis/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/hazardous-duty-pay-related-to-exposure-to-covid-19/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/office-of-workers-compensation-programs-owcp/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/sick-leave-and-other-time-off/",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/telework/",
+    "score": 0.8,
+    "performance": 0.73,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/coronavirus-faq/weather-and-safety-leave/",
+    "score": 0.85,
+    "performance": 0.93,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/cybersecurity-information-faq/cybersecurity-june-4-2015/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/diversity-and-inclusion-faq/general/",
+    "score": 0.82,
+    "performance": 0.77,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/beneficiary/",
+    "score": 0.81,
+    "performance": 0.77,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/benefits-for-transgender-federal-employees-and-annuitants/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/general/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/insurance-benefits/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/leave-policy/",
+    "score": 0.83,
+    "performance": 0.82,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/retirement-benefits/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/domestic-partner-benefits-faq/same-sex-domestic-partner-benefits/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employee-relations-faq/addressing-resolving-poor-performance/",
+    "score": 0.82,
+    "performance": 0.78,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employee-relations-faq/performance-based-actions/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employment-faq/disability-employment/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employment-faq/federal-hiring/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employment-faq/general/",
+    "score": 0.82,
+    "performance": 0.78,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/employment-faq/student-educational-employment-program/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/federal-tort-claims-act-faq/general/",
+    "score": 0.84,
+    "performance": 0.85,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/feds-hire-vets-faq/complaint/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/feds-hire-vets-faq/general/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/feio-disputed-claims-faq/system-access/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/feio-disputed-claims-faq/system-errors/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/feio-disputed-claims-faq/system-functionality/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/furlough-faq/working-during-furlough/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/hr-line-of-business-provider-assessment-faq/general/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/hr-strategy-and-evaluation-services-faq/organizational-design-position-classification/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/hr-strategy-and-evaluation-services-faq/performance-management-solutions/",
+    "score": 0.82,
+    "performance": 0.81,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/hr-strategy-and-evaluation-services-faq/workforce-and-succession-planning/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/human-capital-industry-solutions-faq/hcats-contracts/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/human-capital-industry-solutions-faq/tma-program/",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/",
+    "score": 0.83,
+    "performance": 0.84,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/carrier/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/dental-vision/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/flexible-spending-account/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/health/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/health/how-do-i-sign-up-for-fehb-self-plus-one/",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/life/",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/life/how-much-fegli-life-insurance-coverage-do-i-have/",
+    "score": 0.88,
+    "performance": 0.96,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/insure-faq/multi-state-plan-program/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/leadership-training-faq/general/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/awards-general/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/awards-honorary-or-informal/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/awards-non-rating-based/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/awards-rating-based/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/awards-time-off/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/performance-appraisal-programs/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/performance-appraisal-systems/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/new-performance-management-faq/performance-management-labor-relations/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/open-data/general/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/openopm-faq/general/",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pandemic-faq/employees/",
+    "score": 0.83,
+    "performance": 0.85,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pandemic-faq/general/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pandemic-faq/human-resource-practitioners/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pandemic-faq/managers/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pay-and-leave-faq/",
+    "score": 0.84,
+    "performance": 0.89,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pay-and-leave-faq/leave-policy/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pay-and-leave-faq/pay-administration/",
+    "score": 0.82,
+    "performance": 0.81,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pay-and-leave-faq/recruitment-relocation-and-retention-incentives/",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/pay-and-leave-faq/student-loan-repayment/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/performance-management-faq-pre-2013/general-questions/",
+    "score": 0.82,
+    "performance": 0.8,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/performance-management-faq-pre-2013/general/",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/performance-management-faq-pre-2013/technical-questions/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/personnel-documentation-faq/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/personnel-documentation-faq/general/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/personnel-documentation-faq/personnel-documentation/",
+    "score": 0.85,
+    "performance": 0.9,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/personnel-documentation-faq/personnel-documentation/howdo-i-access-and-use-eopf/",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/political-appointees-and-career-civil-service-positions-faq/general/",
+    "score": 0.84,
+    "performance": 0.86,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/qualifications-faq/general/",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.84,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/court-ordered-benefits/",
+    "score": 0.82,
+    "performance": 0.81,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/court-ordered-benefits/how-do-i-apply-for-my-portion-of-my-former-spouse-s-retirement-annuity/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/leaving-the-government/",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/post-retirement/",
+    "score": 0.82,
+    "performance": 0.79,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/pre-retirement/",
+    "score": 0.83,
+    "performance": 0.82,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/pre-retirement/when-can-i-keep-my-health-insurance-benefits-after-i-retire/",
+    "score": 0.86,
+    "performance": 0.87,
+    "accessibility": 0.82,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/retire-faq/pre-retirement/when-will-i-get-my-first-payment/",
+    "score": 0.88,
+    "performance": 0.95,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/senior-executive-service-faq/about-ses/",
+    "score": 0.83,
+    "performance": 0.83,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/senior-executive-service-faq/basic-ses-appraisal-system/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/senior-executive-service-faq/executive-development/",
+    "score": 0.84,
+    "performance": 0.88,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/telework-faq/",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/frequently-asked-questions/work-life-faq/",
+    "score": 0.84,
+    "performance": 0.87,
+    "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/healthcare-insurance/affordable-care-act/",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/healthcare-insurance/changes-in-health-coverage/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/healthcare-insurance/contact-healthcare-insurance/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/dental-vision/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/flexible-spending-accounts/",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/healthcare/",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/healthcare-insurance/healthcare/plan-information/compare-plans/",
+    "score": 0.92,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/healthcare/plan-information/compare-plans/fedvip/",
+    "score": 0.91,
+    "performance": 0.94,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/insurance-faqs/",
+    "score": 0.86,
+    "performance": 0.91,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/insurance-glossary/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.84,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/healthcare-insurance/multi-state-plan-program/issuer/",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/hr-practitioners/",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/information-management/accessibility/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/information-management/freedom-of-information-act/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/information-management/no-fear-act/",
+    "score": 0.86,
+    "performance": 0.77,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/information-management/privacy-policy/",
+    "score": 0.87,
+    "performance": 0.78,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/intern/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/job-seekers/",
+    "score": 0.88,
+    "performance": 0.98,
+    "accessibility": 0.79,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/leaving/index.aspx",
+    "score": 0.97,
+    "performance": 0.98,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/news/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/news/releases/2023/07/joint-message-on-national-whistleblower-appreciation-day-issued-by-the-opm-director-and-opm-inspector-general/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/news/releases/2023/07/release-opm-releases-new-videos-to-help-federal-employees-prepare-for-retirement/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/news/releases/2023/08/release-opm-authorizes-emergency-leave-transfer-program-for-federal-employees-impacted-by-the-2023-hawai-i-fires/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/news/releases/2023/08/release-opm-issues-proposed-regulations-to-update-pathways-programs-provide-agencies-more-flexibility-to-recruit-early-career-talent/",
+    "score": 0.86,
+    "performance": 0.75,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/assessment-and-selection/",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/assessment-and-selection/assessment-glossary/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.84,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/chief-diversity-officers-executive-council/",
+    "score": 0.88,
+    "performance": 0.83,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/chief-human-capital-officers-council/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/classification-qualifications/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/contact-policymakers/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/covid-19/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/data-analysis-documentation/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/disability-employment/",
+    "score": 0.9,
+    "performance": 0.91,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/future-of-the-workforce/cybersecurity-hiring-resource-hub/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/future-of-the-workforce/frequently-asked-questions-for-hybrid-work-environment/",
+    "score": 0.85,
+    "performance": 0.88,
+    "accessibility": 0.85,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/future-of-the-workforce/human-resources-solutions/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.85,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/future-of-the-workforce/hybrid-work-environment-toolkit/",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/policy-data-oversight/future-of-the-workforce/post-hybrid-work-environment-guidance/",
+    "score": 0.9,
+    "performance": 0.91,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/hiring-information/hiring-authorities/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/pay-leave/salaries-wages/",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/snow-dismissal-procedures/current-status/",
+    "score": 0.89,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/policy-data-oversight/snow-dismissal-procedures/status-archives/23/8/7/Early-Departure---2-hours-Staggered-Release---All-Employees-Must-Depart-No-Later-Than-300_3062/",
+    "score": 0.8,
+    "performance": 0.67,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.85,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/benefits-officers-center/",
+    "score": 0.85,
+    "performance": 0.81,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/retirement-center/calculators/federal-ball-park-estimator/",
+    "score": 0.88,
+    "performance": 0.97,
+    "accessibility": 0.88,
+    "best-practices": 0.92,
+    "seo": 0.73
+  },
+  {
+    "path": "/retirement-center/calculators/federal-tax-withholding-calculator/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/calculators/fegli-calculator/",
+    "score": 0.93,
+    "performance": 1,
+    "accessibility": 0.97,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/csrs-information/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/fers-information/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/how-to-make-a-payment/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.85,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/my-annuity-and-benefits/",
+    "score": 0.81,
+    "performance": 0.75,
+    "accessibility": 0.84,
+    "best-practices": 0.92,
+    "seo": 0.73
+  },
+  {
+    "path": "/retirement-center/phased-retirement/",
+    "score": 0.9,
+    "performance": 0.91,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/publications-forms/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/quick-guide/",
+    "score": 0.83,
+    "performance": 0.7,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/retirement-faqs/leaving-the-government/",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/retirement-faqs/post-retirement/",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/retirement-center/retirement-faqs/pre-retirement/",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/search/",
+    "score": 0.87,
+    "performance": 0.96,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/administrative-law-judges/",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/assessment-evaluation/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/center-for-leadership-development/",
+    "score": 0.87,
+    "performance": 0.89,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/classification-job-design/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/contact-agency-services/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/federal-leadership-development-programs/",
+    "score": 0.85,
+    "performance": 0.89,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/hr-line-of-business/",
+    "score": 0.87,
+    "performance": 0.88,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/services-for-agencies/human-capital-industry-solutions/",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.73
+  },
+  {
+    "path": "/suitability/contact-suitea/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.84,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-and-credentialing-faqs/",
+    "score": 0.86,
+    "performance": 0.92,
+    "accessibility": 0.86,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/oversight/",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/policy/",
+    "score": 0.88,
+    "performance": 0.85,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/position-designation-tool/",
+    "score": 0.91,
+    "performance": 0.98,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/suitability-adjudications/",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.85,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/suitability/suitability-executive-agent/suitability-training/",
+    "score": 0.91,
+    "performance": 0.97,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  },
+  {
+    "path": "/support/retirement/contact/",
+    "score": 0.91,
+    "performance": 0.95,
+    "accessibility": 0.86,
+    "best-practices": 1,
+    "seo": 0.82
+  }
+]

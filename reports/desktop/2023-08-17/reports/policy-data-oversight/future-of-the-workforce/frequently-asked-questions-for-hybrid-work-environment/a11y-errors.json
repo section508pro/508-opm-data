@@ -1,0 +1,461 @@
+[
+  {
+    "id": "aria-allowed-attr",
+    "title": "`[aria-*]` attributes do not match their roles",
+    "description": "Each ARIA `role` supports a specific subset of `aria-*` attributes. Mismatching these invalidates the `aria-*` attributes. [Learn more](https://web.dev/aria-allowed-attr/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-566-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,0,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 253,
+              "right": 265,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-567-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,1,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 359,
+              "right": 371,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-568-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,2,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 494,
+              "right": 506,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-569-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,3,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 640,
+              "right": 652,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-570-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,4,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 780,
+              "right": 792,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-571-SPAN",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,1,SPAN",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > span.nav-toggle",
+            "boundingRect": {
+              "top": 144,
+              "bottom": 160,
+              "left": 967,
+              "right": 979,
+              "width": 11,
+              "height": 16
+            },
+            "snippet": "<span class=\"nav-toggle\" tabindex=\"0\" aria-expanded=\"false\">",
+            "nodeLabel": "Toggle submenu",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-expanded=\"false\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-572-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,2,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 881,
+              "bottom": 985,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 104
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "How should I adjust my agency’s telework and work scheduling policies in light …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-573-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,3,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1001,
+              "bottom": 1057,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "How can telework eligibility determinations be made fairly and equitably?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-574-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,4,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1073,
+              "bottom": 1129,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What telework options can I make available to employees?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-575-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,5,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1145,
+              "bottom": 1201,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are telework and remote work entitlements of employment?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-576-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,6,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1217,
+              "bottom": 1273,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can telework be revoked?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-577-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,7,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1289,
+              "bottom": 1345,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Can an employee be required to telework on a short or long-term basis?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-578-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,8,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1361,
+              "bottom": 1417,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Is there a difference between remote work and telework?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-579-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,9,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1433,
+              "bottom": 1513,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Who has the discretion to authorize an employee to engage in remote work?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-580-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,10,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1529,
+              "bottom": 1609,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 80
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "What policy considerations, budgetary impact, and implications should agencies …",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-581-DIV",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,2,DIV,11,DIV",
+            "selector": "div.grid-container > div > div.grid-col-12 > div.usa-accordion",
+            "boundingRect": {
+              "top": 1625,
+              "bottom": 1681,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 56
+            },
+            "snippet": "<div class=\"usa-accordion usa-accordion--bordered\" aria-multiselectable=\"true\">",
+            "nodeLabel": "Are there limits on what locations are appropriate for remote work?",
+            "explanation": "Fix any of the following:\n  ARIA attribute is not allowed: aria-multiselectable=\"true\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "title": "`[aria-*]` attributes do not have valid values",
+    "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more](https://web.dev/aria-valid-attr-value/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 830,
+              "right": 963,
+              "width": 133,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"agency services-control-id\" href=\"/services-for-agencies/\">",
+            "nodeLabel": "Agency Services",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"agency services-control-id\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "1,HTML,1,BODY,7,HEADER,1,NAV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.left-panel-top-2 > ul.usa-nav__primary > li.usa-nav__primary-item > a",
+            "boundingRect": {
+              "top": 126,
+              "bottom": 178,
+              "left": 1017,
+              "right": 1156,
+              "width": 139,
+              "height": 52
+            },
+            "snippet": "<a tabindex=\"0\" class=\"\" aria-controls=\"operating status-control-id\" href=\"/policy-data-oversight/snow-dismissal-procedures/current-status/\">",
+            "nodeLabel": "Operating Status",
+            "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-controls=\"operating status-control-id\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-582-H3",
+            "path": "1,HTML,1,BODY,10,MAIN,1,DIV,0,DIV,3,DIV,1,SECTION,0,DIV,1,DIV,6,DIV,1,SECTION,0,DIV,1,DIV,1,SECTION,0,H3",
+            "selector": "div.grid-container > div > section > h3",
+            "boundingRect": {
+              "top": 665,
+              "bottom": 701,
+              "left": 451,
+              "right": 1091,
+              "width": 640,
+              "height": 36
+            },
+            "snippet": "<h3 data-bind=\"visible: searchableTags().length >",
+            "nodeLabel": "Categories",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
